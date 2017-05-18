@@ -3,14 +3,14 @@ package com.pysun.clearhttp.api;
 import android.os.Environment;
 import android.util.Log;
 
-import com.ebg.demo.http.HttpCallback;
-import com.ebg.demo.http.HttpObserver;
-import com.ebg.demo.http.HttpUtil;
-import com.ebg.demo.http.ProgressHttpCallback;
-import com.ebg.demo.http.RangeFunction;
-import com.ebg.demo.model.RangeManager;
-import com.ebg.demo.util.MD5;
 import com.google.gson.JsonObject;
+import com.pysun.clearhttp.http.HttpCallback;
+import com.pysun.clearhttp.http.HttpObserver;
+import com.pysun.clearhttp.http.HttpUtil;
+import com.pysun.clearhttp.http.ProgressHttpCallback;
+import com.pysun.clearhttp.http.RangeFunction;
+import com.pysun.clearhttp.model.RangeManager;
+import com.pysun.clearhttp.util.MD5;
 
 import java.io.File;
 

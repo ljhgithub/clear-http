@@ -8,9 +8,10 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.ebg.demo.api.ManageHttpApi;
-import com.ebg.demo.http.ProgressHttpCallback;
-import com.ebg.demo.model.RangeManager;
+
+import com.pysun.clearhttp.api.ManageHttpApi;
+import com.pysun.clearhttp.http.ProgressHttpCallback;
+import com.pysun.clearhttp.model.RangeManager;
 
 import java.io.File;
 

@@ -1,7 +1,6 @@
 package com.pysun.clearhttp;
 
 import android.app.Application;
-import android.content.Context;
 
 import com.pysun.clearhttp.util.AppUtil;
 
@@ -16,10 +15,6 @@ public class App extends Application {
     public void onCreate() {
         super.onCreate();
         AppUtil.init(this);
-    }
-
-    @Override
-    protected void attachBaseContext(Context base) {
     }
 
 }

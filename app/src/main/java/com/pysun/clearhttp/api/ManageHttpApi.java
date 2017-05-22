@@ -91,7 +91,6 @@ public class ManageHttpApi {
                 })
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new HttpObserver<File>(httpCallback));
-
         return rangeModel;
     }
 

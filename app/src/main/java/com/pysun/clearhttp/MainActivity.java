@@ -34,7 +34,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 
     private RangeManager downloadApk() {
-
         return ManageHttpApi.getInstance().download("http://gdown.baidu.com/data/wisegame/3bd0d6f36475678b/baidushoujizhushou_16793039.apk", new ProgressHttpCallback<File>() {
             @Override
             public void update(long bytesRead, long contentLength, boolean done) {
@@ -63,6 +62,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             }
         });
+
     }
 
 
